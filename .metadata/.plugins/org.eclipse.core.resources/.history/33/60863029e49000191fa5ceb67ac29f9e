@@ -1,0 +1,38 @@
+package Cracking;
+public class linked<Integer> {
+	
+	private int data;
+	private linked<Integer> nextNode;
+	
+	public linked(int data) {
+		this.data = data;
+	}
+	
+	
+	public int getData() {
+		return data;
+	}
+	
+	public void setData(int data) {
+		this.data = data;
+	}
+	
+	public linked<Integer> getNextNode(){
+		return nextNode;
+	}
+	
+	public void setNextNode(int data) {
+		this.nextNode = nextNode;
+	}
+	
+	@Override
+	public String toString() {
+		return ("Node { data=" + data+ "}");
+	}
+	
+	public static void main(String[] args) {
+		
+		//Declare a linked class
+		linked<Integer> judas = new linked<Integer>();
+	}
+}
